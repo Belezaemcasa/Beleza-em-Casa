@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beleza em Casa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #d63384;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .link-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1rem 2rem;
+      margin: 1rem 0;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .link-card:hover {
+      transform: scale(1.03);
+    }
+    a {
+      text-decoration: none;
+      color: #d63384;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .button-all-products {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      background-color: #d63384;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.2s ease;
+    }
+    .button-all-products:hover {
+      background-color: #b0266d;
+    }
+  </style>
+</head>
+<body>
+  <h1>Beleza em Casa</h1>
+
+  <div class="link-card">
+    <a href="https://s.shopee.com.br/10qDWP32oj" target="_blank">
+      Vizzela Máscara de Cílios Big No Panda Cherry Bordô
+    </a>
+  </div>
+
+  <button class="button-all-products" onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })">
+    Ver todos os produtos
+  </button>
+
+</body>
+</html>
